@@ -6,6 +6,7 @@ import json
 # 导入自定义的网络结构
 from network import Network
 
+# 数据处理
 def load_data():
     # 1、从文件导入数据
     datafile = './work/housing.data'
