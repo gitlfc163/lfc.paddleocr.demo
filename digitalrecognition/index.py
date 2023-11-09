@@ -99,4 +99,4 @@ def train(model):
             opt.clear_grad()
             
 train(model)
-paddle.save(model.state_dict(), './mnist.pdparams')
+paddle.save(model.state_dict(), './model/mnist.pdparams')

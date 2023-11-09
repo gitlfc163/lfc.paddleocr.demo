@@ -98,7 +98,7 @@ for epoch_id in range(EPOCH_NUM):
         opt.clear_grad()
 
 # 保存模型参数，文件名为LR_model.pdparams
-paddle.save(model.state_dict(), 'LR_model.pdparams')
+paddle.save(model.state_dict(), './model/LR_model.pdparams')
 print("模型保存成功，模型参数保存在LR_model.pdparams中")
 
 
@@ -115,7 +115,7 @@ def load_one_example():
 
 
 # 参数为保存模型参数的文件地址
-model_dict = paddle.load('LR_model.pdparams')
+model_dict = paddle.load('./model/LR_model.pdparams')
 model.load_dict(model_dict)
 model.eval()
 
