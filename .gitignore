@@ -160,4 +160,8 @@ cython_debug/
 #.idea/
 digitalrecognition2/model/mnist
 digitalrecognition2/model/mnist.pdparams
+digitalrecognition3/model/mnist.pdparams
 digitalrecognition4/model/mnist.pdparams
+digitalrecognition5/model/mnist.pdparams
+digitalrecognition6/model/mnist.pdparams
+digitalrecognition7/model/mnist.pdparams
