@@ -165,3 +165,7 @@ digitalrecognition4/model/mnist.pdparams
 digitalrecognition5/model/mnist.pdparams
 digitalrecognition6/model/mnist.pdparams
 digitalrecognition7/model/mnist.pdparams
+digitalrecognition8/model/mnist_test.pdparams
+digitalrecognition8/model/mnist.pdparams
+digitalrecognition8/model/mnist_regul.pdparams
+digitalrecognition8/model/mnist.matplotlib.pdparams
