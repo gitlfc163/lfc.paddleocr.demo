@@ -169,3 +169,7 @@ digitalrecognition8/model/mnist_test.pdparams
 digitalrecognition8/model/mnist.pdparams
 digitalrecognition8/model/mnist_regul.pdparams
 digitalrecognition8/model/mnist.matplotlib.pdparams
+digitalrecognition8/model/mnist.visualdl.pdparams
+digitalrecognition8/log/*
+digitalrecognition9/checkpoint/*
+digitalrecognition9/model/mnist.pdparams
